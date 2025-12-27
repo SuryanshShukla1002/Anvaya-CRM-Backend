@@ -344,7 +344,4 @@ app.get("/report/leadDistribution", async (req, res) => {
 });
 
 
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Successfully connected to Mongodb ${PORT}`);
-});
+export default app;
